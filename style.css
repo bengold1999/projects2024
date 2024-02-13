@@ -33,3 +33,17 @@
     background-color: red;
 
 }
+
+
+
+.ball3 {
+
+    position: relative;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(5, 225, 93);
+
+}
