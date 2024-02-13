@@ -1,6 +1,11 @@
 'use strict'
 var gsize = 50
 
+
+function onInit(){
+    document. location. reload() 
+}
+
 function onBallClick(maxDiameter) {
     gsize = gsize + getRandomInt(20, 60)
 
@@ -58,4 +63,8 @@ function onBall4() {
 function onBall5() {
     var body =document.querySelector('body')
     body.style.backgroundColor = getRandomColor()
+}
+
+function onBall6(){
+    return onInit()
 }

@@ -3,6 +3,7 @@
     font-size: 30px;
     box-sizing: border-box;
     font-weight: bold;
+    
 }
 
 body{
@@ -43,11 +44,27 @@ body{
 .ball3 {
 
     position: relative;
-    margin: auto;
+    margin: 3;
     height: 100px;
     width: 100px;
     border-radius: 100%;
     cursor: pointer;
     background-color: rgb(5, 225, 93);
 
+}
+
+.ball6 {
+
+    position: relative;
+    margin: 3;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(5, 225, 93);
+
+}
+
+.ball6:hover{
+    
 }
