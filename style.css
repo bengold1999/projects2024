@@ -5,6 +5,10 @@
     font-weight: bold;
 }
 
+body{
+    background-color: rgb(136, 188, 233);
+}
+
 .ball {
     position: relative;
     margin: auto;
