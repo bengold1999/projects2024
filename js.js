@@ -2,7 +2,7 @@
 var gsize = 50
 
 function onBallClick() {
-    gsize = gsize + 50
+    gsize = gsize + getRandomInt(20,60)
    
 
     var ball = document.querySelector('.ball')
@@ -18,9 +18,3 @@ function onBallClick() {
 
 }
 
-
-function getRandomInt(min, max) {
-    const minCeiled = Math.ceil(min);
-    const maxFloored = Math.floor(max);
-
-}
