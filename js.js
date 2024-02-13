@@ -8,6 +8,8 @@ function onBallClick() {
     var ball = document.querySelector('.ball')
     console.log(ball.style.height)
 
+    ball.style.backgroundColor = getRandomColor()
+
     ball.style.width = gsize + 'px'
     ball.style.height = gsize + 'px'
 
